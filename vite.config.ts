@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'https://github.com/Aleksandra1990Dor/posts-app.git',
+	base: 'https://Aleksandra1990Dor/github.io/posts-app/',
 	plugins: [react()],
 	css: {
 		postcss: {
