@@ -9,8 +9,8 @@ const router = createBrowserRouter([
 		path: '/',
 		errorElement: <NotFound />,
 		children: [
-			{ path: '/posts-app/', element: <Home /> },
-			{ path: '/posts-app/posts/:id', element: <SinglePost /> }
+			{ path: '', element: <Home /> },
+			{ path: '/posts/:id', element: <SinglePost /> }
 		]
 	}
 ])

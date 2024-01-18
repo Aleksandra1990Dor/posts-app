@@ -10,7 +10,7 @@ const Post: FC<{ post: IPost }> = ({ post }) => {
 				<small>user #{post.userId}</small>
 				<small>post #{post.id}</small>
 			</div>
-			<Link to={`/posts-app/posts/${post.id}`}>
+			<Link to={`/posts/${post.id}`}>
 				<h2 className="font-bold text-lg leading-none uppercase max-h-10 truncate w-11/12 sm:w-8/12">
 					{post.title}
 				</h2>
