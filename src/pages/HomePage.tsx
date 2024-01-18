@@ -1,6 +1,6 @@
 import type { FC } from 'react'
 import Layout from '../shared/ui/Layout'
-import AllPosts from '../entities/Post/ui/AllPosts'
+import AllPosts from '../entities/post/ui/AllPosts'
 
 const HomePage: FC = () => {
 	return (

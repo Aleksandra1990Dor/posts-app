@@ -1,5 +1,5 @@
 import type { FC } from 'react'
-import { useSinglePost } from '../entities/Post/hooks/useSinglePost'
+import { useSinglePost } from '../entities/post/hooks/useSinglePost'
 import Layout from '../shared/ui/Layout'
 import Button from '../shared/ui/Button'
 import Loader from '../shared/ui/Loader'
