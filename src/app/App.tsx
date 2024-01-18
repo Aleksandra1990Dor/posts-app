@@ -9,7 +9,7 @@ const router = createBrowserRouter([
 		path: '/',
 		errorElement: <NotFound />,
 		children: [
-			{ path: '', element: <Home /> },
+			{ path: '/posts-app/', element: <Home /> },
 			{ path: '/posts-app/posts/:id', element: <SinglePost /> }
 		]
 	}
